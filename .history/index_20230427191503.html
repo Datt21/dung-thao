@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Tấn Dũng-Thu Thảo Wedding - 20/05/2022" />
+    <!--============= ICONS ================  -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.8.0/leaflet.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.8.0/leaflet.css"
+    />
+    <link
+      href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+    <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.17/leaflet-maplibre-gl.js"></script>
+    <!-- =============== CSS ========================= -->
+
+    <link rel="stylesheet" href="./Css/style.css" />
+
+    <title>DungThao Special Day</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/wedding-marry-svgrepo-com.svg"
+    />
+  </head>
+  <body>
+    <!--============================ HEADER ============================ -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Special Day With Us</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#aboutus" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>AboutUs
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#outstory" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Out Stoty
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#timeline" class="nav__link">
+                <i class="uil uil-calendar-alt nav__icon"></i>Timeline
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#albums" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Albums
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="d-flex banner">
+          <div class="banner1">
+            <img src="./images/Banner-DT.jpg" alt="" class="img" />
+          </div>
+          <div class="banner-title">
+            <span>Save The Date</span>
+          </div>
+          <div class="d-flex banner-info">
+            <div class="name">Tấn Dũng & Thu Thảo</div>
+          </div>
+            <div class="d-flex banner-date">
+            <div class="name">20-05-2023</div>
+          </div>
+
+          <div class="home_scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+        <div class="layout-banner d-flex">
+          <div class="img-left">
+            <img src="./images/dt-black1.jpg" alt="" class="img-1" />
+            <div class="text-special">Special</div>
+            <div class="text-day">day</div>
+          </div>
+          <div class="img-right">
+            <img src="./images/dt-black2.jpg" alt="" class="img-2" />
+            <div class="text-us text-special">with Us</div>
+            <img
+              src="./images/wedding-bouquet.svg"
+              alt=""
+              class="bouquet text-icon"
+            />
+          </div>
+        </div>
+        <div></div>
+        <div class="banner-6">
+          <img src="./images/last33.jpg" alt="" class="img-6" />
+        </div>
+      </section>
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="aboutus">
+        <h2 class="section__title">About Us</h2>
+        <span class="section__subtitle">We introduction</span>
+        <div class="card-profile">
+          <img src="./images/27.jpg"" alt="" class="img-profile">
+          <div class="card-info">
+            <div class="card-name">Name: Tấn Dũng</div>
+            <div class="card-name">Profession: Groom</div>
+          </div>
+        </div>
+
+        <div class="card-profile">
+          <img src="./images/26.jpg"" alt="" class="img-profile">
+          <div class="card-info">
+            <div class="card-name">Name: Thu Thảo</div>
+            <div class="card-name">Profession: Pride</div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="outstory">
+        <h2 class="section__title">Our Story</h2>
+        <span class="section__subtitle">Roadmap for love</span>
+        <div class="layout-content">
+          <div class="item-layout">
+            <img src="./images/11.jpg" alt="" class="img-item" />
+            <div class="content-item">
+              <div class="title">February 2020</div>
+              <div class="text">
+                Chúng tôi quen nhau bằng sự tình cờ của sự sắp đặt.
+              </div>
+              <div class="icon">
+                <img
+                  src="./images/heart-red.svg"
+                  alt=""
+                  class="icon-react-heart-red"
+                  onclick="changeIcon1()"
+                  id="icon-heart-1"
+                />
+                <img
+                  src="./images/laughing-emoji.svg"
+                  alt=""
+                  class="icon-react-haha"
+                   onclick="changeIcon()"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="item-layout">
+            <img src="./images/12.jpg" alt="" class="img-item" />
+            <div class="content-item">
+              <div class="title">First Date</div>
+              <div class="text">
+                Lần hẹn hò đầu tiên chúng mình bắt đầu từ đợt lễ 30/4-1/5 năm đó. Vừa mới qua một đợt dịch covid. Mọi thứ đều rất khó khăn để gặp mặt. Nhưng rồi mọi thứ vẫn tiếp diễn, một cách an nhiên vốn có.
+              </div>
+              <div class="icon" id="el-2">
+                <img
+                  src="./images/heart-red.svg"
+                  alt=""
+                  class="icon-react-heart-red"
+                  onclick="changeIcon2()"
+                  id="icon-heart-2"
+                />
+                <img
+                  src="./images/laughing-emoji.svg"
+                  alt=""
+                  class="icon-react-haha"
+                   onclick="changeIcon()"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="item-layout">
+            <img src="./images/21.jpg" alt="" class="img-item" />
+            <div class="content-item">
+              <div class="title">Rainbow</div>
+              <div class="text">
+                Suốt thời gian yêu nhau, đôi khi là cãi vã, xung đột, không ít lần tưởng chừng như không thể tiếp tục. Nhưng sau tất cả chúng tôi quyết định vượt qua và về chung một nhà.
+              </div>
+              <div class="icon">
+                <img
+                  src="./images/heart-red.svg"
+                  alt=""
+                  class="icon-react-heart-red"
+                  onclick="changeIcon3()"
+                  id="icon-heart-3"
+                />
+                <img
+                  src="./images/laughing-emoji.svg"
+                  alt=""
+                  class="icon-react-haha"
+                   onclick="changeIcon()"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="item-layout">
+            <img src="./images/29.jpg" alt="" class="img-item" />
+            <div class="content-item">
+              <div class="title">18 December 2022</div>
+              <div class="text">
+                Sau 3 năm 3 tháng bên nhau, không ngắn cũng chẳng dài nhưng cũng đủ để chúng mình tin rằng đó là dấu mốc để hai đứa sang trang mới của cuộc đời tốt đẹp này!
+              </div>
+              <div class="icon">
+                <img
+                  src="./images/heart-red.svg"
+                  alt=""
+                  class="icon-react-heart-red"
+                  onclick="changeIcon4()"
+                  id="icon-heart-4"
+                />
+                <img
+                  src="./images/laughing-emoji.svg"
+                  alt=""
+                  class="icon-react-haha"
+                  onclick="changeIcon()"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Timeline -->
+      <div class="section" id="timeline">
+        <h2 class="section__title">Timeline</h2>
+        <span class="section__subtitle">Kế hoạch hôn lễ</span>
+
+        <div class="wrapper">
+          <div class="center-line"></div>
+          <div class="row row-1 animation_1">
+            <div class="row-div">
+              <img
+                src="./images/wedding-bouquet.svg"
+                alt=""
+                class="icon bouquet"
+              />
+              <div class="details">
+                <div class="details_title">Lễ Nạp Tài</div>
+                <div class="details_date">09:15 01 May 2023</div>
+                <div class="details_adress">TP Vinh, Nghệ An</div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-2 animation_2">
+            <div class="row-div">
+              <img src="./images/car.svg" alt="" class="icon bouquet" />
+              <div class="details">
+                <div class="details_title">Giờ Đón Dâu</div>
+                <div class="details_date">09:05 20 May 2023</div>
+                <div class="details_adress">Quốc Oai, Hà Nội</div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-1 animation_3">
+            <div class="row-div">
+              <img src="./images/couple.svg" alt="" class="icon bouquet" />
+              <div class="details">
+                <div class="details_title">Lễ Thành Hôn</div>
+                <div class="details_date">10:00 20 May 2023</div>
+                <div class="details_adress">
+                  Xóm 1, Hòa Phú, Hòa Thạch, Quốc Oai, Hà Nội
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-2 animation_4">
+            <div class="row-div">
+              <img
+                src="./images/wedding-cheers.svg"
+                alt=""
+                class="icon bouquet"
+              />
+              <div class="details">
+                <div class="details_title">Tiệc Thành Hôn</div>
+                <div class="details_date">10:45 20 May 2023</div>
+                <div class="details_adress">
+                  Xóm 1, Hòa Phú, Hòa Thạch, Quốc Oai, Hà Nội
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="countdown">
+          <img
+            src="./images/background.png"
+            alt=""
+            class="background-countdown"
+          />
+          <div class="countdown-content">
+            <h2>Wedding <span>coming </span> soon</h2>
+            <div class="lauch-time">
+              <div>
+                <p id="days">00</p>
+                <span>Days</span>
+              </div>
+              <div>
+                <p id="hours">00</p>
+                <span>Hours</span>
+              </div>
+              <div>
+                <p id="minutes">00</p>
+                <span>Minutes</span>
+              </div>
+              <div>
+                <p id="seconds">00</p>
+                <span>seconds</span>
+              </div>
+            </div>
+          </div>
+          <img src="./images/rocket.png" alt="" class="rocket" />
+        </div>
+      </div>
+      <div class="section" id="albums">
+        <h2 class="section__title">Albums</h2>
+        <span class="section__subtitle">Gửi tới tương lai</span>
+        <span class="section__subtitle"></span>
+        <div class="layout2">
+          <div class="layout-item">
+            <img src="./images/22.jpg" alt="" class="layout-image last-img" />
+          </div>
+          <div class="layout-item">
+            <img src="./images/23.jpg" alt="" class="layout-image" />
+          </div>
+          <div class="layout-item">
+            <img src="./images/21.jpg" alt="" class="layout-image" />
+          </div>
+          <div class="layout-item">
+            <img src="./images/18.jpg" alt="" class="layout-image" />
+          </div>
+          <div class="layout-item">
+            <img src="./images/dung1.JPG" alt="" class="layout-image" />
+          </div>
+          <div class="layout-item">
+            <img src="./images/1.jpg" alt="" class="layout-image last-img" />
+          </div>
+        </div>
+        <div class="layout-item-2">
+          <div>
+            <img
+              src="./images/13.jpg"
+              alt=""
+              class="layout-image-2 animation_img"
+            />
+          </div>
+          <div>
+            <img
+              src="./images/17.jpg"
+              alt=""
+              class="layout-image-2 animation_img"
+            />
+          </div>
+          <div>
+            <img
+              src="./images/30.jpg"
+              alt=""
+              class="layout-image-2 animation_img"
+            />
+          </div>
+          <div>
+            <img
+              src="./images/10.jpg"
+              alt=""
+              class="layout-image-2 animation_img"
+            />
+          </div>
+          <div>
+            <img
+              src="./images/99.jpg"
+              alt=""
+              class="layout-image-2 animation_img"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="section map" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <span class="section__subtitle">Thông tin liên hệ</span>
+        <div class="img-contact">
+          <img src="./images/last-banner.jpg" alt="" class="contact-image" />
+        </div>
+        <div class="title_address"> Hòa Phú, Hòa Thạch, Quốc Oai</div>
+        <div class="content-contact">
+          <img src="./images/house.svg" alt="" class="contact-icon" />
+          <div class="title_mail">Xóm 1, Hòa Phú, Hòa Thạch, Quốc Oai,TP Hà Nội</div>
+        </div>
+        <div class="content-contact">
+          <img src="./images/phone.svg" alt="" class="contact-icon" />
+          <div class="phone">
+          <a href="tel:0896630298" class="text-phone"> 0896630298 - </a><a href="tel:0944914882" class="text-phone">0944914882</a>
+        </div>
+        </div>
+        <div class="content-contact">
+          <img src="./images/letter.svg" alt="" class="contact-icon" />
+          <div class="title_mail">datptit16@gmail.com</div>
+        </div>
+        <div class="content-contact">
+          <img src="./images/website.svg" alt="" class="contact-icon" />
+          <div class="title_mail">https://facebook.com/100005914753476</div>
+        </div>
+        <hr class="last-line" />
+        <span class="move-subtitle">Xe đưa đón khách mời</span>
+        <div class="move">
+          <div class="move-1">
+            <div class="tilte-move">Hà Nội</div>
+              <div class="item-move">
+               <img src="./images/location.svg" alt="" class="icon-item">
+               <div class="text-move">Trung tâm TP Hà Nội</div>       
+            </div>
+            <div class="item-move">
+               <img src="./images/clock.svg" alt="" class="icon-item">
+               <div class="text-move">Thời gian xuất phát: 9h:30 sáng</div>       
+            </div>
+            <div class="item-move" >
+              <img src="./images/calendar.svg" alt="" class="icon-item">
+              <div class="text-move">Thứ Bảy 20-05-2023</div>
+            </div>
+             <div class="item-move" >
+              <img src="./images/phone.svg" alt="" class="icon-item">
+              <div > <a href="tel:0896630298" class="text-move"> 0896630298 - </a><a href="tel:0944914882" class="text-move">0944914882</a></div>
+            </div>
+            <div class="item-move" >
+              <img src="./images/goal.svg" alt="" class="icon-item">
+              <div class="text-move">Xóm 1, Hòa Phú, Hòa Thạch, Quốc Oai</div>
+            </div>
+            <div class="info-danger">
+              <i>* Mọi người cố gắng đến đúng thời gian để kịp giờ xuất phát. Cảm ơn ạ!</i>
+            </div>
+          </div>
+          </div>
+        </div>
+        <button class="btn-address btn-animation" onclick="displayBank()"> <span>Mừng cưới online tại đây!</span> </button>
+        <div class="bank-content show-bank" id="bank">
+          <div class="content-img">
+            <div class="bank-title">Gửi quà cho chú rể</div>
+            <img src="./images/qrc-dung.jpg" alt="" class="bank-img">
+          </div>
+          <div class="content-img">
+            <div class="bank-title">Gửi quà cho cô dâu</div>
+            <img src="./images/qrc-thao.png" alt=""  class="bank-img">
+          </div>
+        </div>
+        <button class="btn-address">Địa điểm</button>
+      </div>
+  
+      <div class="position-map">
+       
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.0942098115843!2d105.54006387497844!3d20.948731480680642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345b253c535509%3A0x97414901f82186ad!2zUGjDumMgTOG7mWMgUXXDoW4!5e0!3m2!1svi!2s!4v1682596002583!5m2!1svi!2s" width="600" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="layout-map"></iframe>
+      </div>
+      
+    </main>
+     
+    <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">TanDung&ThuThao</h1>
+                    <span class="footer__subtitle">Special Day</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="" class="footer__link">About us</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer__link">Timeline</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://t.me/datpt21" target="_blank" class="footer__social">
+                        <i class="uil uil-telegram-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Tien Dat. All right reserved</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scroll-icon"></i>
+    </a>
+
+    <!-- =================== JS ======================= -->
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
