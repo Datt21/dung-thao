@@ -641,8 +641,9 @@ svg {
 
 .layout-image-2 {
   border-radius: 10px;
+  height: 300px !important;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .bouquet {
